@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <title>Portfolio Wahdat</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h1 class="logo">Rahmatullah Wahdat</h1>
+        <div class="nav-container">
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contacts">contacts</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="settings">
+          <div class="dropdown">
+            <button
+              class="btn btn-link dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-language"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ger</a></li>
+              <li><a class="dropdown-item" href="#">Eng</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-link dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#" onclick="toggleDarkMode()"
+                  >Dark</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" onclick="toggleLightMode()"
+                  >Light</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="home-container">
+          <div class="home-teaser">
+            <h2>Rahmatullah Wahdat</h2>
+            <h3>Software Developer - Intern</h3>
+            <p>
+              Equipped with modern and in-demand programming skills, I am
+              prepared to contribute innovative ideas and add real value to your
+              organization’s growth. If you are seeking a motivated and
+              dedicated intern, please do not hesitate to contact me.
+            </p>
+            <div class="links-container">
+              <i class="fa-solid link-arrow fa-arrow-right"></i>
+              <a href="mailto:rahwahdat50@gmail.com"> Email me </a>
+              <a target="_blank" href="https://github.com/rahmat530">GitHub</a>
+              <a target="_blank" href="https://www.linkedin.com">LinkedIn</a>
+              <a
+                target="_blank"
+                href="./assets/LEBENSLAUF_Rahmatullah_Wahdat.pdf"
+                download="Wahdat_cv"
+                >Download My CV</a
+              >
+            </div>
+          </div>
+          <div class="teaser-img">
+            <img src="./assets/my-img.jpeg" alt="may-imag" />
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="skill-container">
+          <h2>Programming Skills</h2>
+          <hr />
+          <div class="skills-list">
+            <div class="skill-card">
+              <img src="./assets/python.png" alt="python" />
+            </div>
+            <div class="skill-card">
+              <img src="./assets/javascript.png" alt="javascript" />
+            </div>
+            <div class="skill-card">
+              <img src="./assets/html_css.png" alt="html & css" />
+            </div>
+            <div class="skill-card">
+              <img src="./assets/angular.png" alt="angular" />
+            </div>
+            <div class="skill-card">
+              <img src="./assets/mysql.jpeg" alt="mysql" />
+            </div>
+            <div class="skill-card">
+              <img src="./assets/git_github.png" alt="git & github" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Latest Projects</h2>
+        <hr />
+        <div class="cards-grid">
+          <div class="projects-card">
+            <h4>#1- My Protfolio</h4>
+            <p>25.01.2026</p>
+            <p>A space where you can explore my skills and works</p>
+            <div class="tech-list">
+              <div class="btn btn-outline-primary">HTML & CSS</div>
+              <div class="btn btn-outline-primary">JavaScript</div>
+              <div class="btn btn-outline-primary">Bootstrap</div>
+              <div class="btn btn-outline-primary">Font-Awesome</div>
+            </div>
+            <div class="project-links">
+              <a target="_blank" href="/">Live</a>
+              <a target="_blank" href="https://github.com/rahmat530">GitHub</a>
+            </div>
+          </div>
+          <div class="projects-img">
+            <img src="./assets/my_portfo.png" alt="tamb-myportfo" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main-end-->
+    <footer>
+      <p>📍Oldenburg, Germany</p>
+      <hr />
+      <div class="my-contacts" id="contacts">
+        <div class="contact-card">
+          <h4>My contacts:</h4>
+          <p>
+            E-Mail: <a href="rahwhadat50@gmail.com">rahwhadat50@gmail.com</a>
+          </p>
+          <p>Phone: 0152-1456-5039</p>
+        </div>
+        <div class="contacts-links">
+          <a target="_blank" href="https://github.com/rahmat530"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a target="_blank" href="https://www.linkedin.com"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <hr />
+      <p>By Rahmatullah Wahdat 2026 ⭐⭐⭐</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
