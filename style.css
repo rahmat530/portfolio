@@ -115,7 +115,7 @@ nav {
 }
 
 .link-arrow {
-  color: var(--color-link);
+  color: #0e41e9;
   transform: rotate(-45deg);
 }
 .teaser-img img {
@@ -268,7 +268,7 @@ body.dark-mode footer {
 }
 
 body.dark-mode a {
-  color: #0e12e9;
+  color: #0e41e9;
   text-decoration: none;
   transition: color 0.3s ease;
 }
