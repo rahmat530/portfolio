@@ -226,13 +226,9 @@ footer {
 .contacts-links {
   display: flex;
   justify-content: flex-end;
+  object-fit: cover;
   gap: 1rem;
 }
-.contacts-links img {
-  width: 100px;
-  min-height: auto;
-}
-
 /* Dark Mode */
 body.dark-mode {
   background: #16151a;
@@ -357,3 +353,4 @@ body.dark-mode .nav-links li a:hover {
     align-items: center;
   }
 }
+
