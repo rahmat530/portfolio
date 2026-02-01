@@ -1,0 +1,38 @@
+{
+  "en": {
+    "nav": ["Home", "Skills", "Projects", "Contacts"],
+    "portfolio": "Portfolio",
+    "title": "Software Developer - Intern",
+    "desc": "Equipped with modern and in-demand programming skills, I am prepared to contribute innovative ideas and add real value to your organization's growth. If you are seeking a motivated and dedicated intern, please do not hesitate to contact me.",
+    "email": "Email me",
+    "download": "Download My CV",
+    "skills": "Programming Skills",
+    "projects": "Latest Projects",
+    "projTitle": "#1- My Portfolio",
+    "projDesc": "A space where you can explore my skills and works",
+    "live": "Live",
+    "contacts": "My contacts:",
+    "emailLabel": "E-Mail:",
+    "phone": "Phone:",
+    "location": "📍Oldenburg, Germany",
+    "footer": "By Rahmatullah Wahdat 2026 ⭐⭐⭐"
+  },
+  "de": {
+    "nav": ["Startseite", "Fähigkeiten", "Projekte", "Kontakte"],
+    "portfolio": "Portfolio",
+    "title": "Softwareentwickler - Praktikant",
+    "desc": "Ich kombiniere Programmierung mit Präzision, Struktur und neuen Ideen und bin motiviert, in realen Projekten mitzuwirken und dazuzulearnen.",
+    "email": "Schreiben Sie mir",
+    "download": "CV herunterladen",
+    "skills": "Programmierkenntnisse",
+    "projects": "Neueste Projekte",
+    "projTitle": "#1- Mein Portfolio",
+    "projDesc": "Ein Raum, um meine Fähigkeiten und Arbeiten zu erkunden.",
+    "live": "Live",
+    "contacts": "Meine Kontakte:",
+    "emailLabel": "E-Mail:",
+    "phone": "Telefon:",
+    "location": "📍Oldenburg, Deutschland",
+    "footer": "Von Rahmatullah Wahdat 2026 ⭐⭐⭐"
+  }
+}

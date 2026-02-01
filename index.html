@@ -49,8 +49,30 @@
               <i class="fa-solid fa-language"></i>
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Ger</a></li>
-              <li><a class="dropdown-item" href="#">Eng</a></li>
+              <li>
+                <a
+                  class="dropdown-item lang-btn"
+                  href="#"
+                  data-lang="de"
+                  onclick="
+                    event.preventDefault();
+                    setLanguage('de');
+                  "
+                  >Deutsch</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-btn"
+                  href="#"
+                  data-lang="en"
+                  onclick="
+                    event.preventDefault();
+                    setLanguage('en');
+                  "
+                  >English</a
+                >
+              </li>
             </ul>
           </div>
           <div class="dropdown">
