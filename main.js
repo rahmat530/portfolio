@@ -50,8 +50,17 @@ function applyTranslations(lang) {
   $(".links-container a:last-of-type").textContent = txt.download;
   $(".skill-container h2").textContent = txt.skills;
   $("#projects > h2").textContent = txt.projects;
-  $(".projects-card h4").textContent = txt.projTitle;
-  $(".projects-card > p:nth-of-type(2)").textContent = txt.projDesc;
+  const projectCards = $$(".projects-card");
+  if (projectCards[0]) {
+    projectCards[0].querySelector("h4").textContent = txt.projTitle1;
+    const desc1 = projectCards[0].querySelector("p:nth-of-type(2)");
+    if (desc1) desc1.textContent = txt.projDesc1;
+  }
+  if (projectCards[1]) {
+    projectCards[1].querySelector("h4").textContent = txt.projTitle2;
+    const desc2 = projectCards[1].querySelector("p:nth-of-type(2)");
+    if (desc2) desc2.textContent = txt.projDesc2;
+  }
   $(".project-links a").textContent = txt.live;
   $("footer > p:first-of-type").textContent = txt.location;
   $(".contact-card h4").textContent = txt.contacts;
